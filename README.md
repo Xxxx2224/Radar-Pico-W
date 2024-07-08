@@ -1,1 +1,1 @@
-Radar_PİCO W
+RADAR_PİCO W
