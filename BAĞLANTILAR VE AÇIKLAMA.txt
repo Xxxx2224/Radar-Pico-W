@@ -1,0 +1,21 @@
+LCD
+SCL-->GPIO10
+SDA-->GPIO11
+DC-->GPIO14
+RES-->GPIO13
+CS-->GPIO15
+VCC-->36.pin 3.3VOUT
+GND-->3.pin GND
+
+ServoMotor
+VCC-->40.pin VBUS
+GND-->38.pin GND
+PWM-->GPIO28
+
+Ultrasonic Sensör
+VCC-->40.pin
+GND-->33.pin GND
+ECHO-->BOŞTA
+TRIQ-->BOŞTA
+Test amaçlı yaptığım için echo ve triq pinlerini boşta bırakmıştım ultrasonic sensör takılınca pico arızalandı.
+Arayüz.html ,sysfont.py ile ST7735.py driverı piconun içinde bulunduruyorum diğer dosyaları piconun düşük depolama alanından dolayı içinde tutmuyorum hocam.Yanınızda çalıştırdığım kodlar RadarMain.py dosyasındadır diğer dosyalarda öncelerde yaptığım çeşitli wifi,led,ısı sensörü gibi birimleri çalıştırmak için kullandım henüz RadarMain.py içine dahil etmedim wifi vb. modüller için kullandığım kodları projenin son halinde dahil edeceğim şuan parça parça test ederek ilerliyorum yapabildiğim kadar sistemi geliştirip en son birleştireceğim ve toplu testlerini yapacağım.
